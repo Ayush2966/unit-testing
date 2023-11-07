@@ -1,0 +1,60 @@
+{
+    "name": "set33_x_header",
+    "design": "D33",
+    "layout": "X_HEADER",
+    "properties": {
+        "container": {
+            "position": "relative",
+            "height": "500px",
+            "width": "1500px"
+        },
+        "logoContainer": {
+            "position": "absolute",
+            "display": "flex",
+            "justifyContent": "center",
+            "alignItems": "center",
+            "width": "130px",
+            "height": "50px",
+            "top": "51px",
+            "left": "87px"
+        },
+        "logo": {
+            "width": "100%",
+            "height": "100%",
+            "objectFit": "contain"
+        },
+        "textContainer": {
+            "position": "absolute",
+            "display": "flex",
+            "flexDirection": "column",
+            "justifyContent": "center",
+            "width": "100%",
+            "top": "232px",
+            "paddingLeft": "75px",
+            "paddingRight": "832px",
+            "gap": "20px"
+        },
+        "headingContainer": {
+            "width": "100%"
+        },
+        "heading": {
+            "fontSize": "48px",
+            "lineHeight": "52px",
+            "textAlign": "left",
+            "fontWeight": "600",
+            "color": "#000000",
+            "maxWidth": "100%"
+        },
+        "subHeadingContainer": {
+            "width": "100%"
+        },
+        "subHeading": {
+            "fontSize": "24px",
+            "lineHeight": "30px",
+            "textAlign": "left",
+            "fontWeight": "400",
+            "color": "#484848",
+            "maxWidth": "100%"
+        }
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "name": "set80_instagram_story",
+    "design": "D80",
+    "layout": "INSTAGRAM_STORY",
+    "properties": {
+        "container": {
+            "position": "relative",
+            "height": "1920px",
+            "width": "1080px"
+        },
+        "logoContainer": {
+            "position": "absolute",
+            "display": "flex",
+            "justifyContent": "center",
+            "alignItems": "center",
+            "width": "273px",
+            "height": "103px",
+            "top": "159px",
+            "left": "116px"
+        },
+        "logo": {
+            "width": "100%",
+            "height": "100%",
+            "objectFit": "contain"
+        },
+        "textContainer": {
+            "position": "absolute",
+            "display": "flex",
+            "flexDirection": "column",
+            "justifyContent": "center",
+            "width": "100%",
+            "top": "593px",
+            "paddingLeft": "116px",
+            "paddingRight": "414px",
+            "gap": "43px"
+        },
+        "headingContainer": {
+            "width": "100%"
+        },
+        "heading": {
+            "fontSize": "67px",
+            "lineHeight": "70px",
+            "textAlign": "left",
+            "fontWeight": "600",
+            "color": "#000000",
+            "maxWidth": "100%"
+        },
+        "subHeadingContainer": {
+            "width": "100%"
+        },
+        "subHeading": {
+            "fontSize": "28px",
+            "lineHeight": "38px",
+            "textAlign": "left",
+            "fontWeight": "400",
+            "color": "#484848",
+            "maxWidth": "100%"
+        }
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "name": "set33_large_mobile_banner",
+    "design": "D33",
+    "layout": "LARGE_MOBILE_BANNER",
+    "properties": {
+        "container": {
+            "position": "relative",
+            "height": "100px",
+            "width": "320px"
+        },
+        "logoContainer": {
+            "position": "absolute",
+            "display": "flex",
+            "justifyContent": "center",
+            "alignItems": "center",
+            "width": "21px",
+            "height": "10px",
+            "top": "6px",
+            "left": "11px"
+        },
+        "logo": {
+            "width": "100%",
+            "height": "100%",
+            "objectFit": "contain"
+        },
+        "textContainer": {
+            "position": "absolute",
+            "display": "flex",
+            "flexDirection": "column",
+            "justifyContent": "center",
+            "width": "100%",
+            "top": "35px",
+            "paddingLeft": "11px",
+            "paddingRight": "201px",
+            "gap": "5px"
+        },
+        "headingContainer": {
+            "width": "100%"
+        },
+        "heading": {
+            "fontSize": "10px",
+            "lineHeight": "12px",
+            "textAlign": "left",
+            "fontWeight": "600",
+            "color": "#000000",
+            "maxWidth": "100%"
+        },
+        "subHeadingContainer": {
+            "width": "100%"
+        },
+        "subHeading": {
+            "fontSize": "5px",
+            "lineHeight": "10px",
+            "textAlign": "left",
+            "fontWeight": "400",
+            "color": "#484848",
+            "maxWidth": "100%"
+        }
+    }
+}

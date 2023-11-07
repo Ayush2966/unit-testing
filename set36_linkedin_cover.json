@@ -1,0 +1,64 @@
+{
+    "name": "set36_linkedin_cover",
+    "design": "D36",
+    "layout": "LINKEDIN_COVER",
+    "properties": {
+        "container": {
+            "position": "relative",
+            "height": "396px",
+            "width": "1584px"
+        },
+        "logoContainer": {
+            "position": "absolute",
+            "display": "flex",
+            "justifyContent": "center",
+            "alignItems": "center",
+            "width": "104px",
+            "height": "40px",
+            "top": "55px",
+            "left": "89px"
+        },
+        "logo": {
+            "width": "100%",
+            "height": "100%",
+            "objectFit": "contain"
+        },
+        "textContainer": {
+            "position": "absolute",
+            "display": "flex",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "width": "100%",
+            "paddingLeft": "89px",
+            "paddingRight": "100px",
+            "height": "100%",
+            "alignItems": "center"
+        },
+        "headingContainer": {
+            "width": "313px",
+            "height": "202px",
+            "paddingTop":"60px"
+        },
+        "heading": {
+            "fontSize": "42px",
+            "lineHeight": "48px",
+            "textAlign": "left",
+            "fontWeight": "600",
+            "color": "#000000",
+            "maxWidth": "100%"
+        },
+        "subHeadingContainer": {
+            "width": "350px",
+            "height": "154px",
+            "paddingTop":"25px"
+        },
+        "subHeading": {
+            "fontSize": "24px",
+            "lineHeight": "36px",
+            "textAlign": "right",
+            "fontWeight": "400",
+            "color": "#484848",
+            "maxWidth": "100%"
+        }
+    }
+}
